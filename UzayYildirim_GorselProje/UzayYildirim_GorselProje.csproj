@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4BB963C4-9760-415D-809C-C2EB169DEE57}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UzayYildirim_GorselProje</RootNamespace>
+    <AssemblyName>UzayYildirim_GorselProje</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>UzayYildirim_GorselProje.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>go_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bpass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bpass.Designer.cs">
+      <DependentUpon>bpass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="checkin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkin.Designer.cs">
+      <DependentUpon>checkin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="giris.Designer.cs">
+      <DependentUpon>giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kullanici.cs" />
+    <Compile Include="listeucus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listeucus.Designer.cs">
+      <DependentUpon>listeucus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="odeme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="odeme.Designer.cs">
+      <DependentUpon>odeme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="odemebasarili.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="odemebasarili.Designer.cs">
+      <DependentUpon>odemebasarili.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rastgeleani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rastgeleani.Designer.cs">
+      <DependentUpon>rastgeleani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sonodeme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sonodeme.Designer.cs">
+      <DependentUpon>sonodeme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ucus.cs" />
+    <Compile Include="ucusliste.cs" />
+    <Compile Include="yolcu.cs" />
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bpass.resx">
+      <DependentUpon>bpass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checkin.resx">
+      <DependentUpon>checkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="giris.resx">
+      <DependentUpon>giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listeucus.resx">
+      <DependentUpon>listeucus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="odeme.resx">
+      <DependentUpon>odeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="odemebasarili.resx">
+      <DependentUpon>odemebasarili.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="rastgeleani.resx">
+      <DependentUpon>rastgeleani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sonodeme.resx">
+      <DependentUpon>sonodeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attraction_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GOBilet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gobilet_bar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gobilet_bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gobilet_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gobilet_button_kucuk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gobilet_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gobilet_login_kucuk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feature_graphic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ucus_kutu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_bilet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ucus_kutu2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ucus_kutu3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ucus_kutu4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gobilet_pegasus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gobilet_anadolu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gobilet_sunexpress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gobilet_thy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kartlar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bpass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheel.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_slide.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="go_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
