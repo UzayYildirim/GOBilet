@@ -36,7 +36,7 @@ Kart numarası, son kullanma tarihi, CVC veya CVC2 ve varsa kupon kodu girdikten
 ![enter image description here](https://i.ibb.co/b65RL57/deme-Ba-ar-l.jpg)
 
 # Online Check-In
-Check-In ekranına almış olduğunuz biletin PNR numarasını girmelisiniz. GOBilet, ekranın en altında en son almış olduğunuz biletin PNR numarasını sizin için görüntüleyecektir. Burada yazan PNR numarasını yukarıda bulunan rezervasyon (PNR) numarası alanına girip sonrasında "Check-In Yap" butonuna basabilirsiniz. Aynı zamanda bu ekrana ana sayfadan da ulaşabilirsiniz.
+Check-In ekranına almış olduğunuz biletin PNR numarasını girmelisiniz. GOBilet, ekranın en altında en son almış olduğunuz biletin PNR numarasını sizin için görüntüleyecektir. Burada yazan PNR numarasını yukarıda bulunan rezervasyon (PNR) numarası alanına girip sonrasında "Check-In Yap" butonuna basabilirsiniz. Aynı zamanda bu ekrana ana sayfadan da ulaşabilirsiniz. <br>
 ![enter image description here](https://i.ibb.co/MpwF4hH/Online-Check-In.jpg)
 
 # Biniş Kartı
